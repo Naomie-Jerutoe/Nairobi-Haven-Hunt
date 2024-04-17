@@ -1,0 +1,105 @@
+.form-comments{
+  display: flex;
+}
+.form{
+  width: 60%;
+}
+.comments{
+  width: 30%
+}
+.item-extra-details{
+  display: flex;    
+  flex: 1;
+  gap: 10px;
+}
+.extra-details-image{
+  width: 60%;
+}
+.extra-details-image img{
+  width: 100%;
+  height: 500px;
+}
+.more-details-container{
+  margin: 30px;
+  margin-bottom: 500px;
+}
+.more-details-title{
+  background-color: rgb(252, 250, 250);
+}
+.extra-details{
+  background-color: rgb(212, 212, 212);
+  width: 40%;
+}
+.extra-details h4{
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reviews{
+  background-color: rgb(74, 71, 71);
+  margin-top: 10px;
+  height: fit-content;
+}
+#comment-section{
+  width: 60%;
+  margin: 30px;
+  height: 200px;
+  font-size: large;
+  padding: 30px;
+  border-radius: 8px;
+}
+#comment-section-title{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.fetched-review-comment{
+  color: white;
+  margin-top: 10px;
+}
+.submit-review-Btn{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.submit-review-Btn:hover{
+  background-color: gray;
+  border-radius: 8px;
+}
+.contact-details{
+  margin-bottom: 100px;
+}
+.contact-details h3{
+  text-align: center;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid black;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+}
+
+.outline:hover {
+  transform: scale(1.125);
+  color: black;
+  border-color: black;
+  transition: all 0.3s ease;
+}
+
+.one-comment p{
+  color: white;
+}

@@ -21,6 +21,11 @@
     "react-icons": "^5.0.1",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.3"
+    "@mui/icons-material": "^5.15.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^6.22.3"
   },
   "proxy": "http://127.0.0.1:5000",
   "devDependencies": {
